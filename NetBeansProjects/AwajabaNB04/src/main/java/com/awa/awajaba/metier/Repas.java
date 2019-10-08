@@ -20,4 +20,18 @@ public class Repas {
         this.date = date;
 	
     }
+    public int getNumero(){
+		return this.numero;
+	}
+    public void setNumero(int num){
+		this.numero=num;
+	}
+    public void setDate(LocalDate ldate){
+		this.date=ldate;
+	}
+	
+	public LocalDate getDate(){
+		return this.date;
+	}
+        
 }
